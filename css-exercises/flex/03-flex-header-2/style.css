@@ -1,4 +1,4 @@
-/* this is some magical font-importing.  
+/* this is some magical font-importing.
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
@@ -8,18 +8,20 @@ body {
   font-family: Besley, serif;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  justify-content: space-between;
 }
 
-.profile-image {
-  background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-  border-radius: 50%;
-  width: 48px;
-  height:  48px;
+.left-items {
+  justify-content: space-between;
 }
 
 .logo {
@@ -27,6 +29,29 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: 15px;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+  padding: 0 5px;
+}
+
+.right-items {
+  margin-right: 10px;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
 }
 
 button {
@@ -37,12 +62,10 @@ button {
   padding: 8px 24px;
 }
 
-a {
-  /* this removes the line under our links */
-  text-decoration: none;
-  color: rebeccapurple;
-}
-
-ul {
-  list-style-type: none;
+.profile-image {
+  background: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 48px;
+  height:  48px;
 }
