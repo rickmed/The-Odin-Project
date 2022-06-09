@@ -31,5 +31,9 @@ for (e of [red_p, blue_h3, parent_div]) {
     container.appendChild(e);
 }
 
+document.querySelector('button').addEventListener('click', function (e) {
+    e.target.style.background = 'yellow';
+  });
+
 
 
