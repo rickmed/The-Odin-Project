@@ -1,0 +1,33 @@
+container {
+    max-width: 400px;
+    display: block;
+    margin: 0.1rem auto;
+    background: #dddee0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+}
+
+buttons_area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.1rem;
+}
+
+button {
+    border-radius: 10px;
+}
+
+button#equals {
+    grid-column: span 2;
+}
+
+screen {
+    /* height: 100px; */
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
