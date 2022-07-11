@@ -23,11 +23,20 @@ button#equals {
 }
 
 screen {
-    /* height: 100px; */
-    background-color: gray;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    /* height: 100px; */
+    background-color: gray;
     margin-bottom: 0.5rem;
     border-radius: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.undo {
+    height: 30px;
+    background-image: url('undo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
 }
