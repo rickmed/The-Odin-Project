@@ -33,7 +33,7 @@ screen {
     padding-right: 0.5rem;
 }
 
-.undo {
+.Back {
     height: 30px;
     background-image: url('undo.png');
     background-repeat: no-repeat;
